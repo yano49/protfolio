@@ -179,3 +179,107 @@ section {
 .card img {
     width: 150px;
 }
+
+section {
+    min-height: 100vh;
+}
+
+.parallax-home {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.parallax-home img{
+    position: absolute;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.parallax-home #text {
+    position: absolute;
+    font-size: 2.5rem;
+    text-shadow: 0 10px 4px rgba(0, 0, 0, 0.85);
+    top: 80%;
+    left: 3%;
+}
+
+.parallax-home img#moon {
+    mix-blend-mode: screen;
+}
+
+
+.about {
+    position: relative;
+}
+
+.about img{
+    position: absolute;
+    z-index: 1000;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.about img .about-waterfall {
+    position: absolute;
+    top: -95px;
+}
+
+.about .info-box {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    width: 50%;
+    z-index: 1003;
+    background: #1d002c;
+}
+
+.about .info-box h2 {
+    font-size: 2.5rem;
+}
+
+.about .info-box p {
+    margin-bottom: 1.5rem;
+    margin-top: .5rem;
+}
+
+.btn {
+    background: #12f7ff;
+    color: #1d002c;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: .5rem 1rem;
+    transition: all .3s ease;
+    border: 2px solid #12f7ff;
+    font-weight: 500;
+}
+
+.btn:hover {
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #1d002c;
+    color: #12f7ff;
+}
+
+
+.products {
+    background: #121137;
+    padding: 3rem 10%;
+}
+
+.products h2{
+    font-size: 2rem;
+    padding: 2rem 0 1rem 0;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+
+.products-card {
+    display: flex;
+    align-items: center;
+}
+
+.card img {
+    width: 150px;
+}
