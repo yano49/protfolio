@@ -174,6 +174,8 @@ section {
 .products-card {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .card img {
@@ -273,13 +275,4 @@ section {
     padding: 2rem 0 1rem 0;
     text-align: center;
     margin-bottom: 5rem;
-}
-
-.products-card {
-    display: flex;
-    align-items: center;
-}
-
-.card img {
-    width: 150px;
 }
